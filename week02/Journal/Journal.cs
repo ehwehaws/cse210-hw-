@@ -6,7 +6,7 @@ public class Journal
 {
     List<Entry> _entries = new List<Entry>();
 
-    public void AddEntry(string response, string prompt)
+    public void AddEntry(string prompt, string response)
     {
         Entry entry = new Entry();
         entry._prompt = prompt;
