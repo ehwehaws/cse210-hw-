@@ -12,7 +12,7 @@ class Program
         string input = ".";
         while (input != "quit" && !s.AllHidden())
         {
-            Console.Clear
+            Console.Clear();
             Console.WriteLine(s.GetText());
             Console.WriteLine("Press enter or type quit to end");
             input = Console.ReadLine();

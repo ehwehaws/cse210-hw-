@@ -31,7 +31,7 @@ public class Scripture
     public string GetText()
     {
         string line = reference.Show() + " ";
-        foreach (Words w in words)
+        foreach (Word w in words)
         {
             line += w.Show() + " ";
         }
@@ -43,7 +43,7 @@ public class Scripture
 
     public bool AllHidden()
     {
-        foreach (Words w in words)
+        foreach (Word w in words)
         {
             if (!w.IsHidden())
             {

@@ -1,4 +1,4 @@
-public class Words
+public class Word
 {
     private string word;
     private bool hidden;
