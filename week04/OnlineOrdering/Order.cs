@@ -2,7 +2,7 @@ using System.Numerics;
 
 public class Order
 {
-    private List<Product> _items = new List<Product>;
+    private List<Product> _items = new List<Product>();
     private Customer _cust;
 
     public Order(Customer cust) {
@@ -32,7 +32,7 @@ public class Order
         {
             txt += p.GetName() + " (" + p.GetId() + ")\n";
         }
-        return txt
+        return txt;
     }
 
     public string GetShippingLabel() {

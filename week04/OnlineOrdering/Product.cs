@@ -1,9 +1,9 @@
 public class Product
 {
-    private string name;
-    private string id;
-    private double price;
-    private int qty;
+    private string _name;
+    private string _id;
+    private double _price;
+    private int _qty;
 
 
     public Product(string name, string id, double price, int qty)
