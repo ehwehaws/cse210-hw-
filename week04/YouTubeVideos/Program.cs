@@ -24,7 +24,7 @@ class Program
 
         foreach (YouVid v in vids)
         {
-            Console.WriteLine(v.Title + "by " + v.Author + " (" + v.Length + "s) " + v.GetNumComments() + " comments");
+            Console.WriteLine(v.Title + " by " + v.Author + " (" + v.Length + "s) " + v.GetNumComments() + " comments");
             foreach (Comment c in v.Comments)
             {
                 Console.WriteLine(c.Name + ": " + c.Text);
