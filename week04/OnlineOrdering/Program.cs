@@ -16,7 +16,7 @@ class Program
         Console.WriteLine("Total: " + order1.GetTotal());
         Console.WriteLine();
         //cust2
-        Address addr2 = new Address("45 Long", "Italy", "It", "Rome");
+        Address addr2 = new Address("45 Long", "Italy", "Idk", "Rome");
         Customer cust2 = new Customer("Timothy", addr2);
         Order order2 = new Order(cust2);
         order2.AddItem(new Product("Roman Sword", "BG1", 2.5, 2));
