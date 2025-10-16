@@ -19,7 +19,7 @@ namespace EternalQuest
 
         public override string DisplayStatus()
         {
-            return "[∞]";
+            return "[infinity]";
         }
 
         public override string GetStringRepresentation()

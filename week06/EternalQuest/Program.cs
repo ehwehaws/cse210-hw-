@@ -1,5 +1,5 @@
 using System;
-
+//Added save/load system and bonus points for completing checklist goals.
 namespace EternalQuest
 {
     class Program
